@@ -8,33 +8,47 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi Everyone, I am <span className="purple">Stevendo </span>
+            from <span className="purple"> HCMC, VietNam.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently employed as a software developer at GrindyTechnology.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I completed my Bachelor's degree in Computer Science at Ho Chi Minh City University of Technology
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Investing in Cryptocurrency Projects
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> A Coin Holder
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Traveling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Tea Ceremony and Fish Watching
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          {/* <p style={{ color: "rgb(155 126 172)"  }}>
+            "Strive to build things that make a difference! <br></br>
+             Strive to create things that bring positive change!"{" "}
+          </p> */}
+          <p style={{
+            color: "rgb(155 126 172)",
+            fontSize: "1.2em", // Tăng kích thước chữ
+            fontWeight: "bold", // Đậm chữ
+            textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" // Đổ bóng
+          }}>
+            "Strive to build things that make a difference! <br />
+            Strive to create things that bring positive change!"
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          
+  
+          <footer className="blockquote-footer">Stevendo</footer>
         </blockquote>
       </Card.Body>
     </Card>

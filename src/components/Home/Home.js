@@ -1,8 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/Bitcoin-bg.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import Projectsv2 from "../Projects/Projects_v2";
 import Type from "./Type";
 
 function Home() {
@@ -14,15 +17,15 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Good Day!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                I'M 
+                <strong className="main-name"> Do Van Thang</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -42,6 +45,10 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <About></About>
+      <Projects></Projects>
+      <Projectsv2></Projectsv2>
+
     </section>
   );
 }
